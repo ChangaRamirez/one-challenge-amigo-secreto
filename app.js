@@ -14,8 +14,11 @@ function agregarAmigo(){
     alert("Por favor, inserte un nombre");
     return;
   } else {
+    //Limpiamos el string del usuario de cualquier caracter que no sea una letra, espacio " " o guion "-"
+    const stringLimpio = limpiarString(inputAmigo.value);
+    const nombre = capitalizarMayuscula(stringLimpio);
     //Agregamos el string al final del array nombres
-    nombres.push(inputAmigo.value);
+    nombres.push(nombre);
     //Borramos el campo de input para que quede vacío, listo para añadir otro nombre ;)
     inputAmigo.value = "";
     //Agrregando los nombres al elemento <ul> y limpiamos el contenido del <ul> de resultados
@@ -49,3 +52,33 @@ function sortearAmigo() {
   resultado.innerHTML = "";
   resultado.innerHTML = nombres[indiceAleatorio];
 }
+
+//Función que convierte en mayúscula la primera letra del nombre agregado por el usuario
+const capitalizarMayuscula = string => {
+  //Separamos el string del usuario en un array
+  const arrayDeNombre = [...string];
+
+  //Iteramos sobre [arrayDeNombre], si es el primer elemento, o si sigue después de un espacio " " o un guión "-"
+  //se convierte en mayúscula 
+  const arrayModificado = arrayDeNombre.map((letra, index) => {
+    if (index === 0 || arrayDeNombre[index - 1] === " " || arrayDeNombre[index - 1] === "-") {
+      return letra.toUpperCase();
+    }
+    //Si no es el caso, regresamos la letra minúscula sin modificar
+    return letra;
+  });
+
+  //Juntamos este array modificado y lo convertimos a un string, el cual regresamos como resultado
+  const stringNuevo = arrayModificado.join("");
+  return stringNuevo;
+}
+
+//Función que limpia el string de cualquier caracter que no sea una letra, un espacio " " o un guión "-"
+const limpiarString = string => {
+  //Creamos el regex que busca caracteres que NO coincidan
+  const regex = /[^a-zA-ZáéíóúÁÉÍÓÚüÜñÑçÇ\s-]/g
+  //Borramos estos caracteres y convertimos todas las letras en minúsculas
+  const stringLimpio = string.replace(regex, "").toLowerCase();
+  //Regresamos un string limpio
+  return stringLimpio;
+};
