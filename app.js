@@ -1,6 +1,7 @@
 //Inicializando elementos del DOM
-const inputAmigo = document.getElementById("amigo");
-const listaAmigos = document.getElementById("listaAmigos");
+const inputAmigo = document.getElementById("amigo"); //Casilla de input
+const listaAmigos = document.getElementById("listaAmigos"); //<ul> donde aparecen los amigos del array [nombres]
+const resultado = document.getElementById("resultado"); //<ul> donde se presenta el resultado al sortear amigo
 
 //Inicializando variables
 const nombres = [];
@@ -17,8 +18,9 @@ function agregarAmigo(){
     nombres.push(inputAmigo.value);
     //Borramos el campo de input para que quede vacío, listo para añadir otro nombre ;)
     inputAmigo.value = "";
-    //Agrregando los nombres al elemento <ul>
+    //Agrregando los nombres al elemento <ul> y limpiamos el contenido del <ul> de resultados
     actualizarLista(nombres);
+    resultado.innerHTML = "";
   }
 }
 
@@ -37,3 +39,13 @@ const actualizarLista = listaDeNombres => {
   //Inyectamos esta cadena de <li> en el interior del elemento <ul>
   listaAmigos.innerHTML = nuevoHTML;
 };
+
+//Función que sortea el amigo secreto desde el array [nombres]
+function sortearAmigo() {
+  //Creamos un numero aleatorio entre los indices disponibles en [nombres]
+  const indiceAleatorio = parseInt(Math.floor(Math.random() * nombres.length));
+  
+  //Limpiamos el HTML dentro del elemento <ul> de resultados y agregamos el resultado en su interior
+  resultado.innerHTML = "";
+  resultado.innerHTML = nombres[indiceAleatorio];
+}
