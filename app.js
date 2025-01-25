@@ -1,0 +1,2 @@
+//Inicializando variables
+const nombres = [];
