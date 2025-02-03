@@ -1,0 +1,9 @@
+Licencia de Uso Personal Único
+
+Copyright (c) 2025 Jorge Eduardo Ramírez-García Correa
+
+Este proyecto está licenciado únicamente para uso personal y no comercial. Puedes usar, modificar y distribuir este código o proyecto para fines educativos y personales.
+
+El uso comercial, la redistribución o la ejecución pública de este proyecto están estrictamente prohibidos sin el consentimiento previo por escrito del titular de los derechos de autor.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITÁNDOSE A LAS GARANTÍAS DE COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O LOS TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUALQUIER RECLAMO, DAÑOS O CUALQUIER OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA FORMA, QUE SURJA DE, O EN CONEXIÓN CON EL SOFTWARE O EL USO O CUALQUIER OTRA GESTIÓN EN EL SOFTWARE.

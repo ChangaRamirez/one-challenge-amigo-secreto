@@ -19,7 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-<!--[![Forks][forks-shield]][forks-url]-->
+[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto">
     <img src="images/amigo-secreto-logo.jpg" alt="Logo" width="300" height="120">
   </a>
 
@@ -46,7 +46,7 @@
     &middot;
     <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues/new?labels=bug&template=bug-report.md">Reportar Un Bug</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Solicitar Una Función</a>
+    <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues/new?labels=enhancement&template=feature-request---.md">Solicitar Una Función</a>
   </p>
 </div>
 
@@ -83,9 +83,13 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca Del Proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="images/amigo-secreto.png" alt="Logo" width="400" height="90">
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+<!--Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `ChangaRamirez`, `one-challenge-amigo-secreto`, `twitter_handle`, `linkedin_username`, `hotmail`, `laloraco`, `project_title`, `project_description`, `project_license`-->
+
+Este es un proyecto que forma parte del curso de Alura para introducción a la programación con JavaScript. 
+
+![A Cool Gif](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFudWV5ZHQ0NGJnbXRpejk3ZHNsaG13OGlicDl4NjJ0aTlhdWl1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KpACNEh8jXK2Q/giphy.gif)
 
 <p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
@@ -149,7 +153,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,16 +177,16 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+<a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChangaRamirez/one-challenge-amigo-secreto" alt="contrib.rocks image" />
 </a>
 
 
 
 <!-- LICENSE -->
-## License
+## Licencia
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Este proyecto es para uso personal y educativo exclusivamente. El uso comercial no está autorizado.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,9 +195,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Eduardo "Changa" Ramírez-García - [@twitter_handle](https://twitter.com/twitter_handle) - laloraco@hotmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Link del Proyecto: [https://github.com/ChangaRamirez/one-challenge-amigo-secreto](https://github.com/ChangaRamirez/one-challenge-amigo-secreto)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,16 +216,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
+[contributors-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
+[forks-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/network/members
+[stars-shield]: https://img.shields.io/github/stars/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
 [stars-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
+[issues-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues
+[license-shield]: https://img.shields.io/github/license/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
+[license-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ramirezpaints/
 [product-screenshot]: images/screenshot.png
