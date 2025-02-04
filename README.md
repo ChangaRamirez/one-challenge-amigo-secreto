@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto">
-    <img src="assets/images/amigo-secreto-logo.jpg" alt="Logo" width="300" height="120">
+    <img src="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/blob/main/assets/images/amigo-secreto-logo.JPG" alt="Logo" width="300" height="120">
   </a>
 
 <h3 align="center">Amigo Secreto</h3>
@@ -279,7 +279,7 @@ Link del Proyecto: [https://github.com/ChangaRamirez/one-challenge-amigo-secreto
 [issues-shield]: https://img.shields.io/github/issues/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
 [issues-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues
 [license-shield]: https://img.shields.io/github/license/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
-[license-url]: LICENCE.txt
+[license-url]: https://raw.githubusercontent.com/ChangaRamirez/one-challenge-amigo-secreto/refs/heads/main/LICENCE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ramirezpaints/
 [product-screenshot]: images/screenshot.png
