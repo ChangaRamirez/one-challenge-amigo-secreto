@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of regresar al inicio link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -31,13 +31,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto">
-    <img src="images/amigo-secreto-logo.jpg" alt="Logo" width="300" height="120">
+    <img src="assets/images/amigo-secreto-logo.jpg" alt="Logo" width="300" height="120">
   </a>
 
 <h3 align="center">Amigo Secreto</h3>
 
   <p align="center">
-    Sorteador de nombres desde una lista que el mismo usuario crea. Con funcionalidades de formateo.
+    Sorteador de nombres desde una lista que el mismo usuario crea, con funcionalidades de formateo.
     <br />
     <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto"><strong>Explora los documentos »</strong></a>
     <br />
@@ -83,11 +83,19 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca Del Proyecto
 
-<img src="images/amigo-secreto.png" alt="Logo" width="400" height="90">
+<img src="assets/images/amigo-secreto.png" alt="Logo" width="500">
 
 <!--Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `ChangaRamirez`, `one-challenge-amigo-secreto`, `twitter_handle`, `linkedin_username`, `hotmail`, `laloraco`, `project_title`, `project_description`, `project_license`-->
 
-Este es un proyecto que forma parte del curso de Alura para introducción a la programación con JavaScript. 
+### ¡Bienvenidos al Amigo Secreto más tecnológico!
+
+Este proyecto nació de la brillante idea de demostrar cómo un poco de JavaScript puede hacer que nuestras navidades (o cualquier ocasión) sean mucho más divertidas... o algo más caóticas, dependiendo de quién te toque como amigo secreto. 🎁
+
+Aquí, olvídate de escribir nombres en papelitos y hacer todo a mano, porque con solo unos clics podrás generar al azar quién será tu misterioso amigo secreto. El usuario ingresa los nombres en un input, y estos se almacenan mágicamente (bueno, con JavaScript y un poco de DOM) en una lista visible. Luego, con el botón de "Sortear Amigo", uno de esos nombres aparecerá de forma aleatoria, dejando el misterio en el aire.
+
+Este proyecto no solo es útil para juegos de oficina, sino que también demuestra cómo trabajar con variables, arrays, loops, y cómo interactuar con el DOM. ¡Todo lo que necesitas para hacer magia en el mundo del desarrollo web!
+
+Así que, ¿te atreves a descubrir quién es tu amigo secreto? Pero no olvides... no siempre es lo que parece. 👀
 
 ![A Cool Gif](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFudWV5ZHQ0NGJnbXRpejk3ZHNsaG13OGlicDl4NjJ0aTlhdWl1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KpACNEh8jXK2Q/giphy.gif)
 
@@ -107,7 +115,7 @@ Este es un proyecto que forma parte del curso de Alura para introducción a la p
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Empezando
@@ -117,7 +125,7 @@ Para conseguir una copia local solo hay que seguir unos sencillos pasos.
 
 ### Prerequisitos
 
-Realmente al ser un proyecto sencillo solo se requiere de un navegador web (yo utilicé Chrome v. 132.0.6834.160) y un editor de codigo para poder examinar los documentos. Pero basta con revisar el repositorio directamente desde [GitHub](https://github.com/ChangaRamirez/one-challenge-amigo-secreto) para explorar los documentos desde su ahí =)
+Realmente al ser un proyecto sencillo solo se requiere de un navegador web (yo utilicé Chrome v. 132.0.6834.160) y un editor de codigo para poder examinar los documentos. Pero basta con revisar el repositorio directamente desde [GitHub](https://github.com/ChangaRamirez/one-challenge-amigo-secreto) para explorar los documentos desde ahí =)
 
 ### Instalación
 
@@ -130,52 +138,98 @@ Realmente al ser un proyecto sencillo solo se requiere de un navegador web (yo u
    git remote set-url origin ChangaRamirez/one-challenge-amigo-secreto
    git remote -v # confirmar los cambios
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<div align=center><img src="assets/gifs/demo.gif" alt="Logo" width="500"></div>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+ Este proyecto puede ser tu nuevo compañero en todas esas actividades donde el azar decide por ti... ya sea para elegir un amigo secreto, asignar tareas aleatorias o simplemente darle un toque de emoción a cualquier evento. Aquí te dejo algunas maneras de sacar el máximo provecho de esta herramienta:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Sortear un amigo secreto
+¿Estás organizando un amigo secreto para el cumpleaños de tu compañero de trabajo? ¡Este proyecto es para ti! Solo tienes que ingresar los nombres de todos los participantes en el campo de texto, darle al botón de "Sortear Amigo" y ¡listo! El sistema seleccionará un nombre de la lista al azar y lo mostrará en la pantalla. ¡Así de fácil!
+
+### Generar tareas aleatorias
+¿No te decides quién debe hacer qué en el equipo? Usa esta aplicación para asignar tareas al azar. Solo ingresa los nombres de todos los miembros del equipo, pon un nombre de tarea para cada uno y permite que el azar haga el resto. ¡Nunca más tendrás que tomar la decisión difícil de "quién hace qué"!
+
+### Usar para actividades de grupo
+¿Estás organizando juegos de grupo y necesitas asignar equipos o roles? Este proyecto puede ser útil para seleccionar equipos, asignar roles o hacer sorteos de cualquier tipo de forma rápida y divertida. Solo ingresa los nombres y deja que la magia de JavaScript haga el trabajo.
+
+## Funciones útiles para formatear el input del usuario:
+Este proyecto no solo te ayuda a sortear nombres, también asegura que los datos que ingreses estén correctamente formateados. Como buen proyecto de JavaScript, he incluido varias funciones que garantizan que tu experiencia sea limpia y sin errores.
+
+### Eliminación de caracteres no alfabéticos
+Si intentas ingresar algo como "Carlos123" o "@Sofía", el sistema eliminará cualquier carácter que no sea una letra, para asegurarse de que solo los nombres válidos se guarden. Nada de números ni símbolos raros se quedarán en la lista. 🧹
+
+<img src="assets/gifs/eliminacion-no-alfabeticos.gif" alt="Logo" width="400">
+
+### Capitalización automática
+No importa si escribes “juan pérez” o “MARÍA LÓPEZ”, el sistema automáticamente corregirá las palabras para que siempre empiecen con mayúscula, dándole un toque más elegante a los nombres. ¡Siempre con estilo! ✨
+
+<img src="assets/gifs/capitalizacion-automatica.gif" alt="Logo" width="400">
+
+### Correción tras espacios o guiones
+Para que todo se vea bien, he agregado una pequeña magia que también capitaliza las palabras que vienen después de los espacios o guiones. Así que no más "juan-pérez" o "maría lópez", sino "Juan-Pérez" y "María López". ¡Todo bien ordenado! 🔤
+
+<img src="assets/gifs/capitalizacion-guion.gif" alt="Logo" width="400">
+
+¡Y eso es todo! Ya estás listo para usar este proyecto y darle un toque de azar a tu día. ¡Espero que lo disfrutes tanto como yo al hacerlo!
+
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+Este proyecto ha ido evolucionando paso a paso, implementando mejoras en su funcionalidad y garantizando una mejor experiencia para el usuario. A continuación, se detallan las etapas clave del desarrollo:
 
-See the [open issues](https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues) for a full list of proposed features (and known issues).
+### ✅ 1. Creación del array para almacenar nombres
+El primer paso fue establecer la estructura base del proyecto mediante un array, donde se almacenarían los nombres ingresados por el usuario. Este array sería la fuente de datos para la funcionalidad principal del sorteo.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### ✅ 2. Implementación de la función para agregar amigos
+Se desarrolló una función que permite al usuario ingresar nombres a través de un input, asegurando que cada nombre se almacene correctamente en el array.
+
+### ✅ 3. Implementación de la función para actualizar la lista visual de amigos
+Para mejorar la experiencia del usuario, se implementó una función que actualiza dinámicamente un elemento `<ul>` en la interfaz, reflejando en tiempo real los nombres ingresados.
+
+### ✅ 4. Implementación de la función para sortear un amigo secreto
+El núcleo del proyecto: una función que selecciona un nombre al azar del array de participantes y lo muestra en pantalla cuando el usuario presiona el botón "Sortear Amigo".
+
+### ✅ 5. Implementación de funciones para limpiar el string ingresado
+Se agregaron mejoras para garantizar que los nombres ingresados sean legibles y correctamente formateados, evitando inconsistencias en la lista.
+
+### 📌 5.1 Eliminación de caracteres no alfabéticos
+Una función que filtra y elimina cualquier carácter no alfabético del input del usuario, asegurando que solo se almacenen nombres válidos sin números, símbolos u otros caracteres no deseados.
+
+### 📌 5.2 Capitalización de las mayúsculas en los nombres ingresados
+Se desarrolló una función que ajusta automáticamente la capitalización de los nombres. Esto garantiza que cada palabra comience con mayúscula, incluyendo las que vienen después de espacios o guiones.
+
+Este roadmap refleja el progreso del proyecto hasta ahora, pero siempre hay espacio para mejoras y nuevas funcionalidades. 🚀 ¡Seguiré trabajando para hacer que este Amigo Secreto sea aún más increíble!
+
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuyendo
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear. Cualquier contribución que hagas será **muy apreciada**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Si tienes una sugerencia que pueda mejorar esto, por favor haz un fork del repositorio y crea un pull request. También puedes abrir un issue con la etiqueta "enhancement" (mejora). ¡No olvides darle una estrella al proyecto! ¡Gracias nuevamente!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Haz un fork del proyecto
+2. Crea tu rama de características (git checkout -b feature/AmazingFeature)
+3. Haz commit de tus cambios (git commit -m 'Añadir una AmazingFeature')
+4. Sube a la rama (git push origin feature/AmazingFeature)
+5. Abre un pull request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
-### Top contributors:
+### Top contribuyentes:
 
 <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ChangaRamirez/one-challenge-amigo-secreto" alt="contrib.rocks image" />
@@ -186,31 +240,31 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## Licencia
 
-Este proyecto es para uso personal y educativo exclusivamente. El uso comercial no está autorizado.
+Este proyecto es para uso personal y educativo exclusivamente. El uso comercial no está autorizado. Puedes leer más en [LICENCE.txt](LICENCE.txt)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
-Eduardo "Changa" Ramírez-García - [@twitter_handle](https://twitter.com/twitter_handle) - laloraco@hotmail.com
+Eduardo "Changa" Ramírez-García - laloraco@hotmail.com
 
 Link del Proyecto: [https://github.com/ChangaRamirez/one-challenge-amigo-secreto](https://github.com/ChangaRamirez/one-challenge-amigo-secreto)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Reconocimientos
 
-* []()
-* []()
-* []()
+* [Alura LATAM](https://www.aluracursos.com/)
+* [ONE - Oracle Next Education](https://www.oracle.com/mx/education/oracle-next-education/)
+* [Othneil Drew (tu plantilla README.md me salvó)](https://github.com/othneildrew)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">regresar al inicio</a>)</p>
 
 
 
@@ -225,7 +279,7 @@ Link del Proyecto: [https://github.com/ChangaRamirez/one-challenge-amigo-secreto
 [issues-shield]: https://img.shields.io/github/issues/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
 [issues-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues
 [license-shield]: https://img.shields.io/github/license/ChangaRamirez/one-challenge-amigo-secreto.svg?style=for-the-badge
-[license-url]: https://github.com/ChangaRamirez/one-challenge-amigo-secreto/blob/master/LICENSE.txt
+[license-url]: LICENCE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ramirezpaints/
 [product-screenshot]: images/screenshot.png
