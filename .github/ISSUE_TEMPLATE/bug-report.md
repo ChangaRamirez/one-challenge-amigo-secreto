@@ -1,8 +1,9 @@
 ---
-nombre: Reporte de Bug
-acerca: Crea un reporte para ayudarme a mejorar
-titulo: "[BUG]"
-etiquetas: bug
+name: Reporte de Bug
+about: Crea un reporte para ayudarme a mejorar
+title: "[BUG]"
+labels: bug
+assignees: Changa Ramírez
 ---
 
 ## Descripción
@@ -17,10 +18,10 @@ Una clara y concisa descripción de qué sucede en el bug.
 Una clara y concisa descripción de qué se espera que suceda.
 
 ## Comportamiento Actual
-Una clara y concisa descripción de qué suceda sucedió de hecho.
+Una clara y concisa descripción de qué sucedió de hecho.
 
 ## Capturas de Pantalla
 Si aplica, agrega capturas de pantalla para entender mejor el problema.
 
 ## Contexto Adicional
-Aagrega cualquier otro contexto del problema aquí, como tu ambiente (OS, versión, etc.).
+Agrega cualquier otro contexto del problema aquí, como tu ambiente (OS, versión, etc.).
