@@ -46,7 +46,7 @@
     &middot;
     <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues/new?labels=bug&template=bug-report.md">Reportar Un Bug</a>
     &middot;
-    <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues/new?labels=enhancement&template=feature-request---.md">Solicitar Una Función</a>
+    <a href="https://github.com/ChangaRamirez/one-challenge-amigo-secreto/issues/new?labels=enhancement&template=feature-request.md">Solicitar Una Funcionalidad</a>
   </p>
 </div>
 
